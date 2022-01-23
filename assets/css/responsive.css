@@ -1,0 +1,23 @@
+@media(max-width: 991px){
+    .logo img{
+        margin: 0;
+    }
+}
+@media(max-width: 768px){
+    .logo img{
+        margin: 0;
+    }
+}
+@media(max-width: 991px){
+    .logo img{
+        margin: 0;
+    }
+}
+@media(max-width: 767px){
+    .footer_head{
+        margin-top: 30px;
+    }
+    .book_head{
+        margin-top: 30px;
+    }
+}

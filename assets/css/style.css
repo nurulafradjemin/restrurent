@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --praimary_color:#c79f2c;
+}
+h1, h2, h3, h4, h5, h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+/* headert part start*/
+.header_part{
+    background-image: url(../img/slider_img.jpg);
+    /* height: auto; */
+}
+
+/* navigation bar start */
+.navigation_bar{
+    background: rgba(77, 71, 71, .2);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu li a{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    color:#fff;
+}
+.menu li i{
+    text-decoration: none;
+    padding: 5px;
+    color: #c79f2c;
+}
+
+/* navigation bar end */
+
+/* slider part start */
+/* .slider_con h1{
+    font-size: 32px;
+} */
+.slider_con h1{
+   color: #fff;
+    font-size: 90px;
+}
+.btn a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    background: rgb(54, 51, 51);
+    margin: 0 7px;
+}
+.slidet_part{
+    padding: 80px 0 120px;
+}
+.down_head{
+    padding: 25px 0;
+}
+.btn a:hover{
+    background: var(--praimary_color);
+}
+
+/* slider part end */
+
+/* headert part end*/
+
+/* about part start */
+.about_part{
+    background: url(../img/about_bg.jpg);
+    padding: 35px 0 15px;
+}
+.about_head h2{
+    color: var(--praimary_color);
+}
+.about_con p{
+ padding: 35px 0 35px;
+ text-align: center;
+}
+.cook_img{
+    margin: 0;
+    text-align: center;
+}
+/* about part end */
+
+/* ingredient part start */
+.ingredient_part{
+    background: url(../img/ingredients_bg.jpg);
+    padding: 85px 0;
+}
+.ingre_con_main{
+    background: rgba(0,0,0,.7);
+    color:white ;
+    text-align: center;
+    
+    padding: 50px;
+    max-width: 536px;
+    margin: auto;
+
+}
+.ingre_down_head{
+    padding: 5px 0;
+}
+.ingre_con{
+    padding: 25px 0;
+}
+.ingre_img img{
+    padding: 20px 15px;
+}
+/* ingredient part end */
+
+/* menu card part start */
+.menu_card{
+   padding: 40px 0;
+   background: url(../img/menu_bg.jpg); 
+}
+.menu_part_01 , .menu_part_02, .menu_part_03, .menu_part_04{
+    padding: 10px 0;
+}
+.menu_part_01,.menu_part_02{
+    padding-right: 50px;
+}
+.menu_part_03,.menu_part_04{
+    padding-left: 50px;
+}
+.menu_card_head h3{
+    color: var(--praimary_color);
+}
+.menu_headline{
+    color: var(--praimary_color);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--praimary_color);
+}
+.menu_card_con{
+    padding: 20px 0;
+    position:relative;
+}
+.special_border{
+    border: 1px solid var(--praimary_color);
+    padding: 5px;
+}
+.menu_card_con .spc p{
+    color:#fff;
+}
+.spc{
+    background: var(--praimary_color);
+    padding: 0 5px;
+    width: 60px;
+    height: 25px;
+    right: 0;
+    top: -5%;
+    position: absolute;
+}
+/* menu card part end */
+
+/* review part start */
+.review_part{
+    background: url(../img/review_bg.jpg);
+    padding: 100px 0 100px;
+}
+.review_con_main{
+    min-height: 300px;
+    max-width: 600px;
+    background: rgba(0,0,0,.8);
+    color: #fff;
+    margin: auto;
+    padding: 50px 20px;
+}
+.review_down_head img{
+    padding: 10px 0;
+}
+.review_con p{
+    padding: 15px 0;
+}
+/* review part end */
+
+/* book part start */
+.book_part{
+    background: url(../img/reservation_bg.jpg);
+    padding: 50px 0;
+}
+.book_head h3{
+    color: var(--praimary_color);
+}
+.pd{
+    padding: 0 50px ;
+}
+.book_down_head{
+    padding: 15px 0;    
+}
+.book_con p:nth-child(2){
+    padding: 10px 0;
+}
+form .row{
+    padding: 30px 0;
+}
+form .row .col-6 h6{
+    color: var(--praimary_color);
+}
+form .row .col-6 input{
+    padding: 5px;
+    margin: 5px 0 18px;
+}
+.book_now_btn input{
+    width: 180px;
+    padding: 5px;
+    background: var(--praimary_color);
+    color: #fff;
+}
+/* book part end */
+
+/* footer part start */
+footer{
+    padding: 50px 0;
+    background: #000;
+    color: #fff;
+}
+.footer_down_head{
+    padding: 15px 0;
+}
+
+/* footer part end */
